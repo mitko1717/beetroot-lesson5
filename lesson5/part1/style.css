@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 1100px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 65px;
+}
+
+.part-1 {
+  width: 220px;
+  height: 175px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.part-2 {
+  width: 220px;
+  height: 175px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.part-3 {
+  width: 220px;
+  height: 175px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.round-one {
+  width: 65px;
+  height: 63px;
+  border: 1px solid #fff;
+  background-color: #1275b9;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.round-one:hover {
+  background-color: #fff;
+  border: 1px solid #2a69a6;
+}
+
+.round-one img {
+  width: 22px;
+  height: 30px;
+  background-color: #fff;
+}
+
+.round-two {
+  width: 65px;
+  height: 63px;
+  background-color: #1275b9;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.round-two:hover {
+  background-color: #fff;
+  border: 1px solid #2a69a6;
+}
+
+.round-two img {
+  width: 26px;
+  height: 26px;
+  background-color: #1275b9;
+}
+
+.round-three {
+  width: 65px;
+  height: 63px;
+  background-color: #1275b9;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.round-three img {
+  width: 28px;
+  height: 24px;
+  background-color: #1275b9;
+  color: #fff;
+}
+
+.round-three:hover {
+  background-color: #fff;
+  border: 1px solid #2a69a6;
+}
+
+.part-1 h1 {
+  /* Style for "Responsive" */
+  width: 160px;
+  height: 10px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0px 25px 0px;
+  /* Text style for "Responsive" */
+  font-style: normal;
+  letter-spacing: 0.35px;
+  line-height: normal;
+}
+.part-1 p {
+  /* Style for "Etiam sagi" */
+  width: 220px;
+  height: 52px;
+  color: #9d9d9d;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+  /* Text style for "E, tiam sa" */
+  font-style: normal;
+  letter-spacing: 0.35px;
+  line-height: normal;
+  padding-top: 10px;
+}
+
+.part-2 h1 {
+  /* Style for "Easy Custo" */
+  width: 160px;
+  height: 10px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0px 25px 0px;
+  /* Text style for "Easy Custo" */
+  font-style: normal;
+  letter-spacing: 0.35px;
+  line-height: normal;
+}
+
+.part-2 p {
+  /* Style for "Etiam sagi" */
+  width: 220px;
+  height: 52px;
+  color: #9d9d9d;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+  /* Text style for "E, tiam sa" */
+  font-style: normal;
+  letter-spacing: 0.35px;
+  line-height: normal;
+  padding-top: 10px;
+}
+
+.part-3 h1 {
+  /* Style for "Fast and r" */
+  width: 160px;
+  height: 10px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0px 25px 0px;
+  /* Text style for "Fast and r" */
+  font-style: normal;
+  letter-spacing: 0.35px;
+  line-height: normal;
+}
+
+.part-3 p {
+  /* Style for "Etiam sagi" */
+  width: 220px;
+  height: 52px;
+  color: #9d9d9d;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+  /* Text style for "E, tiam sa" */
+  font-style: normal;
+  letter-spacing: 0.35px;
+  line-height: normal;
+  padding-top: 10px;
+}
