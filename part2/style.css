@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(59, 63, 69);
+}
+
+header {
+  background-color: rgb(74, 79, 86);
+  color: rgb(233, 127, 128);
+  height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+  width: 80%;
+}
+
+main {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+section {
+  margin: 50px 0 50px 0;
+  width: 70%;
+  height: 480px;
+  color: white;
+  font-size: 35px;
+  background-color: rgb(136, 132, 157);
+  flex-direction: column;
+}
+
+ul {
+  height: 80px;
+  display: block;
+}
+
+span {
+  vertical-align: middle;
+}
+
+ul:hover {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  transition: all 0.1s ease-in;
+  background-color: rgb(93, 92, 118);
+}
+
+ul label:nth-child(5) {
+  color: rgb(238, 230, 230);
+}
+
+ul label[for="item-list-1"] span:hover {
+  color: #000;
+}
+
+ul.item-2:active {
+  background-color: yellow;
+}
+
+ul span {
+  font-size: 30px;
+}
+
+input:checked + span {
+  text-decoration: line-through;
+  opacity: 0.5;
+  transition: all 0.1s ease-in;
+  /* vertical-align: middle; */
+}
+
+span.not-emty {
+  font-size: 20px;
+}
+
+span.not-emty::after {
+  content: ")";
+}
+
+span.not-emty::before {
+  content: "(";
+}
+
+ul.item-2,
+ul.item-4,
+ul.item-6 {
+  background-color: rgb(122, 118, 146);
+}
+
+ul.item-2:hover,
+ul.item-4:hover,
+ul.item-6:hover {
+  background-color: rgb(93, 92, 118);
+}
+
+li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+input {
+  cursor: grab;
+}
+
+div.foot {
+  background-color: rgb(74, 79, 86);
+  color: rgb(233, 127, 128);
+  height: 100px;
+  width: 70%;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
